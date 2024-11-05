@@ -29,7 +29,7 @@ const Banner = () => {
                     cursorColor='#ff014f'
                 />
                 </h2>
-                <p className='text-base font-bodyFont leading-6 tracking-wide'>I use innovative web solutions, including web scraping,
+                <p className='text-base font-bodyFont leading-6  tracking-wide'>I use innovative web solutions, including web scraping,
                  to craft high-impact digital experiences that drive real results.
                   My focus is on developing strategies that boost user engagement 
                   and increase client revenue by delivering valuable insights and automation.
@@ -39,7 +39,7 @@ const Banner = () => {
 
             </div>
             <div >
-            <div className='flex gap-10'>
+            <div className='flex flex-col lgl:flex-row gap-10'>
                 <div>
                 <h2 className='text-base uppercase font-titleFont mb-4 '>FIND ME IN</h2>
                 <div className='flex gap-4'>
@@ -68,9 +68,9 @@ const Banner = () => {
 
         <div className='w-full lgl:w-1/2 flex justify-center items-center relative'  >
             <img 
-            className='w-[500px] z-10'
+            className='w-full lgl:w-[500px] z-10'
             src={heroimg} alt="" />
-             <div className="absolute bottom-0 w-[600px] h-[500px] lgl:w-[500px] lgl:h-[500px]
+             <div className="absolute bottom-0 w-400px] h-[400px] lgl:w-[500px] lgl:h-[500px]
               bg-gradient-to-r from-[#1e2024]
               to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
         </div>

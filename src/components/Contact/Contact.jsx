@@ -8,7 +8,7 @@ const Contact = () => {
     <section id='contact' className='w-full  pt-14 py-24 items-center border-b-[1px] border-b-black'>
     <div className='flex flex-col gap-4 font-titleFont items-center justify-center mb-10'>
       <h3 className='text-sm uppercase font-light text-designColor tracking-wide'>CONTACT</h3>
-      <h1 className='text-5xl uppercase text-gray-300 font-bold'>Contact With Me</h1>
+      <h1 className='text-5xl uppercase text-gray-300 font-bold'>Contact Me</h1>
     </div>
 
     <div className='w-full '>
@@ -49,15 +49,15 @@ const Contact = () => {
             <div className="w-full  lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form action=""  className='h-auto flex flex-col gap-8 '  >
 
-                <div className='flex w-full gap-10'>
-                <div className='flex flex-col gap-3 w-1/2'>
-                <label htmlFor="name">YOUR NAME</label>
-                <input className='contactInput ' type="text" id='name' />
-                </div>
-                <div className='flex flex-col gap-3 w-1/2'>
-                <label htmlFor="name">PHONE</label>
-                <input className='contactInput ' type="text" id='name' />
-                </div>
+                <div className='flex flex-col lgl:flex-row w-full gap-10'>
+                  <div className='flex flex-col gap-3 w-full lgl:w-1/2'>
+                    <label htmlFor="name">YOUR NAME</label>
+                    <input className='contactInput ' type="text" id='name' />
+                  </div>
+                  <div className='flex flex-col gap-3 lgl:w-1/2'>
+                    <label htmlFor="name">PHONE</label>
+                    <input className='contactInput ' type="text" id='name' />
+                  </div>
                 </div>
                 <div className='flex flex-col gap-3 '>
                 <label htmlFor="name">EMAIL</label>
