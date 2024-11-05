@@ -1,10 +1,10 @@
 import React from 'react'
 import Projectcard from './Projectcard'
-import nexcent from "../../assets/images/nexcent.png"
+import nexcent from "../../assets/images/nexcen.png"
 import furniro from "../../assets/images/furnir.png"
-import flag from "../../assets/images/flag.png"
+import flag from "../../assets/images/flagg.png"
 import kudaproject from "../../assets/images/kuda-project.png"
-import ecommerce from "../../assets/images/ecommerce.png"
+import ecommerce from "../../assets/images/ecommerc.png"
 
 
 const Project = () => {
