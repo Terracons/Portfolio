@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact'
 const App = () => {
   return (
     <div className='w-full h-auto bg-bodyColor text-lightText'>
-      <div className='max-w-screen-xl mx-auto p-8 lgl:p-0'>
+      <div className='max-w-screen-xl mx-auto p-4 lgl:p-0'>
         <Navbar/>
         <Banner/>
         <Features/>
