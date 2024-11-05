@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
 import Features from './components/Features/Features'
 import Project from './components/Project/Project'
+import Contact from './components/Contact/Contact'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Banner/>
         <Features/>
         <Project/>
+        <Contact/>
       </div>
       
  
