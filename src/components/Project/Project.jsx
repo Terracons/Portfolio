@@ -3,7 +3,7 @@ import Projectcard from './Projectcard'
 import nexcent from "../../assets/images/nexcen.png"
 import furniro from "../../assets/images/furnir.png"
 import flag from "../../assets/images/flagg.png"
-import kudaproject from "../../assets/images/kuda-project.png"
+import kudaproject from "../../assets/images/kudaproject.png"
 import ecommerce from "../../assets/images/ecommerc.png"
 
 
