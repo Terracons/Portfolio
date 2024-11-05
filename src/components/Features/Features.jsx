@@ -11,7 +11,7 @@ const Features = () => {
       <h3 className='text-sm uppercase font-light text-designColor tracking-wide'>Features</h3>
       <h1 className='text-5xl uppercase text-gray-300 font-bold'>WHAT I DO</h1>
     </div>
-    <div className='grid grid-cols-3 gap-10'>
+    <div className='grid grid-cols-1 lgl:grid-cols-3 gap-10'>
       <Card
       title="Website Development"
       des="Building dynamic web applications with React.js, HTML5,Tailwind CSS, and APIs to create seamless user experiences.  I craft engaging interfaces that boost client online presence and revenue."

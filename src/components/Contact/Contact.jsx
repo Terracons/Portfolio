@@ -11,9 +11,9 @@ const Contact = () => {
       <h1 className='text-5xl uppercase text-gray-300 font-bold'>Contact With Me</h1>
     </div>
 
-    <div className='w-full'>
-        <div className='w-full  flex justify-between'> 
-            <div className=" w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+    <div className='w-full '>
+        <div className='w-full  flex flex-col lgl:flex-row justify-between'> 
+            <div className=" w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
                 <div className='w-full h-64 flex justify-center items-center'>
                     <img 
                 className='w-64  object-center'
@@ -35,7 +35,7 @@ const Contact = () => {
         </p>
       </div>
       <div className='flex gap-10'>
-                <div>
+            <div>
                 <h2 className='text-base uppercase font-titleFont mb-4 '>FIND ME IN</h2>
                 <div className='flex gap-4'>
                     <span className="bannarIcon"><FaGithub/></span>
@@ -44,9 +44,9 @@ const Contact = () => {
                 </div>
             </div>
                 
+      </div>
         </div>
-        </div>
-            <div className="w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+            <div className="w-full  lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form action=""  className='h-auto flex flex-col gap-8 '  >
 
                 <div className='flex w-full gap-10'>

@@ -12,9 +12,9 @@ const Banner = () => {
         delaySpeed:2000,
      })
   return (
-    <section id='home' className='w-full py-20 pt-10 pb-20 flex items-center border-b-[1px] border-b-black'>
+    <section id='home' className='w-full py-20 pt-10 pb-20 flex flex-col lgl:flex-row items-center border-b-[1px] border-b-black'>
 
-        <div className='w-1/2 flex flex-col gap-20'>
+        <div className='w-full lgl:w-1/2 flex flex-col gap-20'>
 
             <div className=' flex flex-col gap-5 '>
                 <h4 className='text-lg font-normal'>Welcome to My Digital World</h4>
@@ -66,7 +66,7 @@ const Banner = () => {
 
         </div>
 
-        <div className='w-1/2 flex justify-center items-center relative'  >
+        <div className='w-full lgl:w-1/2 flex justify-center items-center relative'  >
             <img 
             className='w-[500px] z-10'
             src={heroimg} alt="" />

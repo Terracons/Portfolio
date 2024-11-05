@@ -15,7 +15,7 @@ const Project = () => {
       <h3 className='text-sm uppercase font-light text-designColor tracking-wide'>VISIT MY PORTFOLIO AND GIVE YOUR FEEDBACK</h3>
       <h1 className='text-5xl uppercase text-gray-300 font-bold'>MY PROJECT</h1>
     </div>
-    <div  className='grid grid-cols-3 gap-8'>
+    <div  className='grid grid-cols-1 lgl:grid-cols-3 gap-8'>
         <Projectcard
         src={ecommerce}
         des="Contributed to the development of the MainMart e-commerce store with full shopping cart
